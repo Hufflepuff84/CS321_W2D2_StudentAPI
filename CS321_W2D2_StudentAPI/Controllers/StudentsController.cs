@@ -25,6 +25,7 @@ namespace CS321_W2D2_StudentAPI.Controllers
             return Ok(_studentsService.GetAll());
         }
 
+
         // GET api/values/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
